@@ -170,7 +170,15 @@
 	name = "wild goblin eyes"
 	desc = "What manner of madness have these reddened orbs espied in the darker places of the realm?"
 	icon_state = "burning_eyes"
-
+	accessory_type = /datum/sprite_accessory/eyes/goblin
+/*
+/obj/item/organ/eyes/night_vision/wild_goblin/Insert(mob/living/carbon/M, special, drop_if_replaced, initialising)
+	if (!istype(owner, /mob/living/carbon/human/species/goblin))
+		accessory_type = /datum/sprite_accessory/eyes/humanoid
+	else
+		accessory_type = /datum/sprite_accessory/eyes/goblin
+	. = ..()
+*/
 /obj/item/organ/eyes/night_vision/wild_goblin/on_life()
 	. = ..()
 	if (!istype(owner, /mob/living/carbon/human/species/goblin))

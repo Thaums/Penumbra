@@ -19,6 +19,7 @@
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/goblinp,\
+	/datum/species/goblin,\
 )
 
 #define RACES_CHURCH list(\
@@ -38,6 +39,7 @@
 	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
 	/datum/species/goblinp,\
+	/datum/species/goblin,\
 )
 
 #define RACES_ALLPLUSKOBOLD list(\
@@ -61,6 +63,7 @@
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/goblinp,\
+	/datum/species/goblin,\
 )
 
 #define RACES_RESPECTED \
@@ -89,6 +92,7 @@
 
 #define RACES_DESPISED \
 	/datum/species/goblinp,\
+	/datum/species/goblin,\
 
 #define RACES_ALL_KINDS list(RACES_DESPISED, RACES_SHUNNED, RACES_TOLERATED, RACES_RESPECTED)
 
@@ -126,6 +130,7 @@
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
+	/datum/species/goblin,\
 )
 // Non-dwarf non-kobold non-goblin mostly
 #define NON_DWARVEN_RACE_TYPES list(\

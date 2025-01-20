@@ -18,6 +18,10 @@
 	name = "Humanoid Eyes"
 	icon_state = "human"
 
+/datum/sprite_accessory/eyes/goblin
+	name = "Goblinoid Eyes"
+	icon_state = "goblin"
+
 /datum/sprite_accessory/eyes/humanoid_glow
 	name = "Humanoid Glowing"
 	icon_state = "human_glow"
